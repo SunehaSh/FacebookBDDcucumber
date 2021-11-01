@@ -30,12 +30,12 @@ public class LoginStepDefinition_LoginPage extends LoginPage {
 	
 	@Then("^I should get logged in successfully$")
     public void i_should_get_logged_in_successfully() throws Throwable {
-        lp.clickLoginButton();;
+        lp.clickLoginButton();
     }
 	
 	@And("^verfication$")
     public void verfication() throws Throwable {
-        lp.verifylogin();;
+        lp.verifylogin();
     }
 
 

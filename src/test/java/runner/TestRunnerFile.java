@@ -12,7 +12,7 @@ import cucumber.api.junit.Cucumber;
 		glue= {"com.facebook.stepDefinition"},
 		tags= {"@Facebook"},
 		
-		monochrome=true, dryRun=false)
+		monochrome=true, dryRun=true)
 public class TestRunnerFile {
 
 }
